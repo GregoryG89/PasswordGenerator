@@ -11,22 +11,19 @@ function writePassword() {
 }
         var howLong = prompt("Choose the length of the Password!");
             console.log(howLong);
-        var Lcase = confirm("Do you want lower case in Password?")
         var Ucase = confirm("Do you want upper case in Password?")
         var Ncase = confirm("Do you want numbers in Password?")
         var Scase = confirm("Do you want Special keys in Password?")
-        console.log(Lcase, Ucase, Ncase, Scase)
+        console.log(Lcase, Ucase, Ncase, Scase);
         
-         
-        // lowercase -abcdefghijklmnopqrstuvwxyz
+        var U = " ABCDEFGHIJKLMNOPQRSTUVWXYZ"  ;
+        var N = "0123456789"
+        var S = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+        
         // uppercase - ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        //number 0123456789
+        //number - 0123456789
         // special characters as a string !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 
-        function Lower(){
-        
-        
-        }
         function Upper(){
         
         }
@@ -34,8 +31,8 @@ function writePassword() {
         
     }
         function Special(){
+        }
 
-}
 var Pass = [];
 var howLong;
 
